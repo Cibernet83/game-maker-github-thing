@@ -1,0 +1,131 @@
+{
+    "id": "c5cf938b-3c62-4df0-b111-3b11bea1c41d",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "obj_enemy",
+    "eventList": [
+        {
+            "id": "652e898a-e19f-455c-be28-f24be72fe4c2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "c5cf938b-3c62-4df0-b111-3b11bea1c41d"
+        },
+        {
+            "id": "bc0a84c4-9f75-400f-8346-d08ac9eda641",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "c5cf938b-3c62-4df0-b111-3b11bea1c41d"
+        },
+        {
+            "id": "1b8e2e4c-6bf1-4d94-8238-745f7132b16d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 3,
+            "m_owner": "c5cf938b-3c62-4df0-b111-3b11bea1c41d"
+        },
+        {
+            "id": "c46ad3ad-af17-4cf4-9507-5a8a4c49be23",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 7,
+            "eventtype": 7,
+            "m_owner": "c5cf938b-3c62-4df0-b111-3b11bea1c41d"
+        },
+        {
+            "id": "63a5b2b4-296b-4492-bf8c-073086cb4a10",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "c5cf938b-3c62-4df0-b111-3b11bea1c41d"
+        },
+        {
+            "id": "ce528d5f-4aa9-41b0-aeed-fef256a90d6a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "c5cf938b-3c62-4df0-b111-3b11bea1c41d"
+        }
+    ],
+    "maskSpriteId": "77b6f8fd-038f-4c03-9072-13519f05400f",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "5e52f0b9-9e8a-44f3-9ee3-1f0b59e57414",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "base_run_spd",
+            "varType": 0
+        },
+        {
+            "id": "e698c3ad-354d-4358-9044-1b905e5d1284",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "jump_spd",
+            "varType": 0
+        },
+        {
+            "id": "bc89635b-e13d-4774-8508-0f54270b04fd",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "grv_buffer",
+            "varType": 0
+        }
+    ],
+    "solid": false,
+    "spriteId": "77b6f8fd-038f-4c03-9072-13519f05400f",
+    "visible": true
+}
